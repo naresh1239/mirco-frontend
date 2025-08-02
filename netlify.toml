@@ -1,5 +1,8 @@
+[build]
+  publish = "dist"   # this is Vite's default output folder
+
 [[headers]]
-  for = "/assets/remoteEntry.js"
+  for = "/assets/*"
   [headers.values]
     Access-Control-Allow-Origin = "https://mirco-frontend-host.netlify.app"
     Access-Control-Allow-Methods = "GET"
