@@ -41,10 +41,13 @@ const App = () => {
     setTotal(total);
   }, [Item])
   
-  console.log("Count from store:", Item,total);
+
  
   return (
     <div className="remoteApp w-[100%] h-[100%] px-5 py-5">
+        <div className='my-5 heading'>
+      <h1 className='text-center  font-bold'>Remote</h1>
+      </div>
       <div className='my-5 heading'>
       <h1 className='text-center  font-bold'>Summary</h1>
       </div>
