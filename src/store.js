@@ -1,6 +1,6 @@
 import { atom, useAtom } from "jotai";
 
-const countAtom = atom(0);
+const countAtom = atom([]);
 
 const useCount = () => useAtom(countAtom);
 

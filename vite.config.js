@@ -9,8 +9,8 @@ export default defineConfig({
       name: "remote_app",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/Button",
-        "./store": "./src/store",
+        "./App": "./src/App.jsx",
+        "./store": "./src/store.js",
       },
       shared: ["react", "react-dom", "jotai"],
     }),
