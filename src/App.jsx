@@ -52,7 +52,7 @@ const App = () => {
       <h1 className='text-center  font-bold'>Summary</h1>
       </div>
       <div className='w-[100%] py-5 itemsInfo'>
-        <h1>itme {Item.reduce((acc, current)=> {acc + current.Quntity},0)}</h1>
+        <h1>itme {Item.reduce((acc, current)=>  acc + current.Quntity ,0)}</h1>
         <p>$ {total}</p>
       </div>
       <div className='selectbox'>
